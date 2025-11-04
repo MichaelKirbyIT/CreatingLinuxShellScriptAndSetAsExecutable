@@ -46,7 +46,7 @@
 
 <p>Copy the script that will be executed</p>
 <ul>
-  <li>In kali Linux, choose the edit tab at the top and select paste clipboard</li>
+  <li>In Kali Linux, choose the edit tab at the top and select paste clipboard</li>
 </ul>
 
 <img src="https://i.imgur.com/wwVXkyB.png" height="80%" width="80%" alt="bash script in nano"/>
