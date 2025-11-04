@@ -131,7 +131,7 @@
   <li>ls</li>
 </ul>
 
-<img src="" height="80%" width="80%" alt="view scripttest.sh in file"/>
+<img src="https://i.imgur.com/yWZM1kY.png" height="80%" width="80%" alt="view scripttest.sh in file"/>
 
 <p>Notice the new file called scripttest.sh</p>
 
