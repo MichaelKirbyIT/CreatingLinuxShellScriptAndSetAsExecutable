@@ -64,7 +64,7 @@
   <li>Creates a function called show_ipinfo</li>
 </ul>
 
-<p>`IP_VAR=`ifconfig eth0 | grep "inet" | tr -s " " ":" | cut -f3 -d ":"`</p>
+<p>IP_VAR=`ifconfig eth0 | grep "inet" | tr -s " " ":" | cut -f3 -d ":"`</p>
 <ul>
   <li>The right side of the equals sign is enclosed in two backticks (`) meaning it will execute everything within the backticks and store it in a variable called IP_VAR</li>
   <li>Runs a Linux command ifconfig against eth0</li>
@@ -75,7 +75,7 @@
   <li>-d “:” (with a delimiter of a colon)</li>
 </ul>
 
-<p>`DGW_VAR=`ip route show | grep "default" | tr -s " " ":" | cut -f3 -d ":"`</p>
+<p>DGW_VAR=`ip route show | grep "default" | tr -s " " ":" | cut -f3 -d ":"`</p>
 <ul>
   <li>Same idea as the previous only the Linux command is ip route show piped to grep “default”</li>
 </ul>
